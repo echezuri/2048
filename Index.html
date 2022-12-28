@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>2048</title>
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href="style/mobile.css" rel="stylesheet" type="text/css">
+ </head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div id="scores-container">
+        <div class="score-container">Puntos  <span id="puntos" class="puntos">  0  </span> </div>
+        <div class="score-container"> Record <span  id="mejorpuntaje" class="puntos">  0  </span> </div>
+      </div>
+    </div>
+
+    <div id="botones">
+     <a href="javascript:reiniciar()";> Nuevo </a>
+	 <a href="ranking.html"> Ranking </a>
+	 
+    </div>
+
+    <div class="game-container">
+      <div class="grid-container" id="zonaTactil">
+        <div class="grid-row">
+          <div  id="cell-1-1" class="grid-cell" data-x="1" data-y="1" data-valor="0"></div>
+          <div  id="cell-2-1" class="grid-cell" data-x="2" data-y="1" data-valor="0" ></div>
+          <div id="cell-3-1" class="grid-cell" data-x="3" data-y="1" data-valor="0"></div>
+          <div id="cell-4-1" class="grid-cell" data-x="4" data-y="1"data-valor="0"></div>
+        </div>
+        <div class="grid-row">
+          <div id="cell-1-2" class="grid-cell" data-x="1" data-y="2" data-valor="0"></div>
+          <div  id="cell-2-2"class="grid-cell" data-x="2" data-y="2" data-valor="0"></div>
+          <div  id="cell-3-2" class="grid-cell" data-x="3" data-y="2" data-valor="0"></div>
+          <div id="cell-4-2" class="grid-cell" data-x="4" data-y="2" data-valor="0"></div>
+        </div>
+        <div class="grid-row">
+          <div id="cell-1-3" class="grid-cell" data-x="1" data-y="3" data-valor="0"></div>
+          <div id="cell-2-3" class="grid-cell"data-x="2" data-y="3" data-valor="0"></div>
+          <div id="cell-3-3" class="grid-cell"data-x="3" data-y="3" data-valor="0"></div>
+          <div id="cell-4-3" class="grid-cell"data-x="4" data-y="3" data-valor="0"></div>
+        </div>
+        <div class="grid-row">
+          <div id="cell-1-4" class="grid-cell"data-x="1" data-y="4" data-valor="0"></div>
+          <div id="cell-2-4" class="grid-cell"data-x="2" data-y="4" data-valor="0"></div>
+          <div id="cell-3-4" class="grid-cell"data-x="3" data-y="4" data-valor="0"></div>
+          <div id="cell-4-4" class="grid-cell"data-x="4" data-y="4" data-valor="0"></div>
+        </div>
+      </div>
+       <div class="tile-container">
+
+      </div>
+      
+    </div>
+	
+	
+ </div>
+   
+  <script src="js/funciones.js"></script>
+
+
+
+</body>
+
+</html>
